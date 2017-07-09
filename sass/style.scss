@@ -1,0 +1,109 @@
+/*!
+Theme Name: MDD WordPress Starter
+Theme URI: http://mattdavisdesign.com/
+Author: Matt Davis
+Author URI: http://mattdavisdesign.com
+Description: WordPress Starter theme for Matt Davis Design
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wp-starter
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+MDD WordPress Starter is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "bootstrap/navs";
+@import "theme/navbar";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "bootstrap/component-animations";
+@import "bootstrap/dropdowns";
+@import "bootstrap/button-groups";
+@import "bootstrap/input-groups";
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/pagination";
+@import "bootstrap/pager";
+@import "bootstrap/jumbotron";
+@import "bootstrap/thumbnails";
+@import "bootstrap/list-group";
+@import "bootstrap/panels";
+@import "bootstrap/responsive-embed";
+@import "bootstrap/wells";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+// @import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "bootstrap/media";
+
+/*--------------------------------------------------------------
+# Theme
+--------------------------------------------------------------*/
+@import "theme/elements";
+@import "theme/widgets";
